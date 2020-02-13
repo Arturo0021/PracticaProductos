@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Producto">
+
+    <ImageView
+        android:id="@+id/image_productos"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"/>
+
+    <TextView
+        android:id="@+id/producto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_below="@+id/image_productos"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp" 
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/precio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/producto"
+        android:textSize="15sp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:id="@+id/sku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/precio"
+        android:textSize="15sp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"/>
+
+</RelativeLayout>
